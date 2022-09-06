@@ -1,11 +1,10 @@
 import React from 'react';
 import { Display, CurrentNum, ResultNum } from '../Presenter/DisplayPresenter';
 
-const DisplayContainer = () => (
+const DisplayContainer = ({ currentNum, resultNum }) => (
   <Display>
-    <CurrentNum>00+00</CurrentNum>
-    <ResultNum>0</ResultNum>
+    <CurrentNum>{currentNum}</CurrentNum>
+    <ResultNum>{resultNum}</ResultNum>
   </Display>
 );
-
 export default DisplayContainer;

@@ -1,13 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import { darken } from 'polished';
 import { Button } from '../Presenter/ButtonPresenter';
 
-const ButtonContainer = ({ color, content }) => (
-  <Button color={color}>{content}</Button>
+const ButtonContainer = ({ color, content, onClick }) => (
+  <Button color={color} onClick={onClick} value={content}>{content}</Button>
 );
-
-Button.defaultProps = {
-  color: 'lightGrey',
-};
 
 export default ButtonContainer;

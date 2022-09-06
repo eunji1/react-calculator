@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Calculator = styled.div`
   width: 20em;
   height: 30em;
   border-radius: 0.75rem;
@@ -21,4 +21,4 @@ const Container = styled.div`
   transform: translate(-50%, -50%);
 `;
 
-export default Container;
+export default Calculator;

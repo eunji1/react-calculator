@@ -14,15 +14,17 @@ export const Display = styled.div`
 export const CurrentNum = styled.div`
     padding-top: 10%;
     width: 95%;
-  font-size: 2rem;
-  color: ${(props) => props.theme.Colors.transparentWhite};
-  text-align: right;  
+    height: 2rem;
+    font-size: 2rem;
+    color: ${(props) => props.theme.Colors.transparentWhite};
+    text-align: right;  
 `;
 
 export const ResultNum = styled.div`
     padding-top: 5%;
     width: 95%;
-  font-size: 3rem;
-  color: ${(props) => props.theme.Colors.lightGrey};
-  text-align: right;  
+    height: 3rem;
+    font-size: 3rem;
+    color: ${(props) => props.theme.Colors.lightGrey};
+    text-align: right;  
 `;

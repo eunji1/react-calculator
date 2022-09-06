@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { darken } from 'polished';
 
 export const Button = styled.button`
   font-size: 1em;
@@ -22,3 +23,7 @@ export const Button = styled.button`
     `;
   }}
 `;
+
+Button.defaultProps = {
+  color: 'lightGrey',
+};
